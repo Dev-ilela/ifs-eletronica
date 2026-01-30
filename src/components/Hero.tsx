@@ -25,7 +25,7 @@ const Hero = () => {
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed">
             Especialistas em análise, reparo e manutenção de equipamentos industriais multimarcas. 
-            Soluções técnicas ágeis e seguras desde 2020.
+            Soluções técnicas ágeis e seguras.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" onClick={scrollToContact} className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6">

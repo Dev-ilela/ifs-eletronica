@@ -8,7 +8,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto mb-16 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Quem Somos</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Fundada em 2020 em São Paulo/SP, a IFS Eletrônica é especializada em análise, reparo e manutenção de equipamentos industriais multimarcas. 
+            A IFS Eletrônica é especializada em análise, reparo e manutenção de equipamentos industriais multimarcas. 
             Oferecemos reparos, projetos, peças de reposição e manutenção preventiva, com foco em eficiência, segurança e qualidade.
           </p>
         </div>

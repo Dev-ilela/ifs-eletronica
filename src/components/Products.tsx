@@ -1,18 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
-import plcImg from "@/assets/plc-equipment.jpg";
-import servoImg from "@/assets/servo-drive.jpg";
-import inverterImg from "@/assets/inverter.jpg";
+import clpImg from "@/assets/CLPs.jpeg";
+import ihmImg from "@/assets/IHM.jpg";
+import servoImg from "@/assets/servo-drives.jpg";
+import inverterImg from "@/assets/Inversores-de-frequência.jpeg";
+import softImg from "@/assets/Softstarters.jpg";
+import pcImg from "@/assets/PC-Industrial.jpg";
+import placaImg from "@/assets/placas.jpeg";
+import fontesImg from "@/assets/Fontes-industriais.png";
 
 const Products = () => {
   const products = [
     {
       title: "CLPs (Controladores Lógicos Programáveis)",
-      image: plcImg,
+      image: clpImg,
       description: "Equipamentos novos e recondicionados multimarcas"
     },
     {
       title: "IHM (Interface Homem-Máquina)",
-      image: plcImg,
+      image: ihmImg,
       description: "Painéis de controle e visualização"
     },
     {
@@ -27,22 +32,22 @@ const Products = () => {
     },
     {
       title: "Soft Starters",
-      image: inverterImg,
+      image: softImg,
       description: "Partida suave para motores elétricos"
     },
     {
       title: "PCs Industriais",
-      image: plcImg,
+      image: pcImg,
       description: "Computadores robustos para ambientes industriais"
     },
     {
       title: "Placas Eletrônicas Industriais",
-      image: plcImg,
+      image: placaImg,
       description: "Circuitos especializados para automação"
     },
     {
       title: "Fontes e Controladores",
-      image: inverterImg,
+      image: fontesImg,
       description: "Alimentação e controle de sistemas industriais"
     }
   ];
